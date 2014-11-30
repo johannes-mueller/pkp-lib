@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/de_EO/manager.xml
+  *
+  * Copyright (c) 2000-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the de_DE (Deutsch (Deutschland)) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="eo_EO" full_name = "Esperanto">
+  <message key="manager.people">Uzantoj</message>
+  <message key="manager.people.editProfile">Redakti profilon.</message>
+  <message key="manager.people.editUser">Redakti uzanton</message>
+  <message key="manager.people.enrollment">Roligo de uzantoj</message>
+  <message key="manager.people.enrollUserAs">Roligi uzanton al</message>
+  <message key="manager.people.enrollSelected">Roligi la elektitajn uzantojn</message>
+  <message key="manager.people.enroll">Roligu uzanton</message>
+  <message key="manager.people.signInAs">Ensaluti kiel</message>
+  <message key="manager.people.disable">Malaktivigi</message>
+  <message key="manager.people.enable">Aktivigi</message>
+  <message key="manager.people.remove">Forigi</message>
+  <message key="manager.people.createUser">Krei uzanton</message>
+  <message key="manager.people.enrollSync">Sinkronigi roligojn</message>
+  <message key="manager.people.unenroll">Forpreni rolon</message>
+  <message key="manager.people.confirmUnenroll">Ĉu vere forpreni la rolon de tiu uzanto?</message>
+  <message key="manager.filesBrowser">Dosiernavigilo</message>
+  <message key="manager.files.indexOfDir">Dosierujo {$dir}</message>
+  <message key="manager.files.createDir">Krei dosierujon</message>
+  <message key="manager.files.uploadFile">Alŝuti dosieron</message>
+  <message key="manager.emails">Ŝablonoj por retmesaĝoj</message>
+  <message key="manager.readingTools">Ilaro por legi</message>
+  <message key="manager.statistics">Statistikoj kaj raportoj</message>
+  <message key="manager.plugins">Kromaĵoj</message>
+  <message key="manager.importExport">Enporti kaj elporti datumojn</message>
+  <message key="manager.users">Uzantoj</message>
+  <message key="manager.people.mergeUsers">Unuigi uzantojn</message>
+  <message key="manager.roles">Roloj</message>
+  <message key="manager.announcements">Anoncoj</message>
+  <message key="manager.people.noneEnrolled">Neniuj uzantoj tiaj</message>
+</locale>
