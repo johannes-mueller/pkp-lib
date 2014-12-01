@@ -232,9 +232,9 @@
 	<message key="debug.databaseQueries">Nombro de datumbazaj demandoj</message>
 	<message key="debug.executionTime">Paĝo generita per</message>
 	<message key="debug.memoryUsage">Memoruzo</message>
-	<message key="debug.notes.localeListLoad">Legis lingvoliston "{$localeList}" de XML</message>
-	<message key="debug.notes.localeLoad">Legis lingvodosieron "{$localeFile}" de XML</message>
-	<message key="debug.notes.missingLocaleKey">Mankanta lingvokodo "{$key}".</message>
+	<message key="debug.notes.localeListLoad">Legis lokaĵara liston "{$localeList}" de XML</message>
+	<message key="debug.notes.localeLoad">Legis lokaĵara dosieron "{$localeFile}" de XML</message>
+	<message key="debug.notes.missingLocaleKey">Mankanta lokaĵara kodo "{$key}".</message>
 	<message key="debug.notes">Notoj:</message>
 	<message key="defaultMetric.title">Defaŭlta Metrico</message>
 	<message key="defaultMetric.availableMetrics">Disponeblaj Metricoj</message>	
@@ -307,8 +307,8 @@
 	<message key="icon.mail.alt">Retpoŝto</message>
 	<message key="icon.unchecked.alt">Nemarkita</message>
 	<message key="icon.view.alt">Aspekto</message>
-	<message key="locale.primary">Cefa lingvo</message>
-	<message key="locale.supported">Subtenataj lingvoj</message>
+	<message key="locale.primary">Cefa lokaĵaro</message>
+	<message key="locale.supported">Subtenataj lokaĵaroj</message>
 	<message key="navigation.website">Retejo</message>
 	<message key="navigation.access"><![CDATA[Uzantoj &amp; Roloj]]></message>
 	<message key="navigation.about">Pri</message>
