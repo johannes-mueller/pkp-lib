@@ -49,7 +49,7 @@
 	<message key="admin.languages.uninstall">Malinstali lokaĵaron</message>
 	<message key="admin.phpInfo">Etendita PHP informo </message>
 	<message key="admin.scheduledTask">Planita tasko</message>
-	<message key="admin.scheduledTask.startTime">Taska komencita.</message>
+	<message key="admin.scheduledTask.startTime">Tasko komencita.</message>
 	<message key="admin.scheduledTask.stopTime">Tasko haltigita.</message>
 	<message key="admin.scheduledTask.noLog">Tasko ne produktis protokolon.</message>
 	<message key="admin.scheduledTask.openAccessNotification">Malfermalira sciigo</message>
