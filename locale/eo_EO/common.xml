@@ -399,7 +399,7 @@
 	<message key="search.operator.and">kaj</message>
 	<message key="search.operator.not">ne</message>
 	<message key="search.operator.or">aŭ</message>
-	<message key="search.searchAllCategories">Serĉi laŭ</message>
+	<message key="search.searchAllCategories">Serĉi</message>
 	<message key="search.searchCategories">Serĉkategorioj</message>
 	<message key="search.subject">Kapvorto(j)</message>
 	<message key="search.titleIndex">Foliumi titolan indekson</message>
