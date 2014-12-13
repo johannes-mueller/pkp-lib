@@ -11,6 +11,13 @@
   -->
 
 <locale name="eo_EO" full_name = "Esperanto">
+       	<message key="author.submit.submissionCitations">
+	  Bonvolu disponebligi formatitan bibliografion por la verkoj cititaj
+	  en via kontribuaĵo. La individuaj eroj estu disigitaj per blankaj
+	  linioj.
+	</message>
+
+
         <message key="submissions.submit">Ensendi</message>
 	<message key="submissions.queuedUnassigned">Neasignita</message>
 	<message key="submission.date.mmdd">MM-TT</message>
