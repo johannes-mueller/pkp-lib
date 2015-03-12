@@ -105,6 +105,8 @@
 	<message key="submission.comments.noComments">Neniuj komentoj</message>
 	<message key="submission.comments.subject">Temo</message>
 
+	<message key="submission.comments.importPeerReview">Enporti reviziaĵojn</message>
+
 	<message key="submission.originalFile">Origina dosiero</message>
 	<message key="submission.submitter">Ensendita de</message>
 	<message key="submission.addSuppFile">Aldoni kromdosieron</message>
