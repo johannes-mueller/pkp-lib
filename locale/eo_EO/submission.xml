@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/submission.xml
+  *
+  * Copyright (c) 2000-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the eo_EO (Esperanto) locale.
+  -->
+
+<locale name="eo_EO" full_name = "Esperanto">
+       	<message key="author.submit.submissionCitations">
+	  Bonvolu disponebligi formatitan bibliografion por la verkoj cititaj
+	  en via kontribuaĵo. La individuaj eroj estu disigitaj per blankaj
+	  linioj.
+	</message>
+
+
+        <message key="submissions.submit">Ensendi</message>
+	<message key="submissions.queuedUnassigned">Neasignita</message>
+	<message key="submission.date.mmdd">MM-TT</message>
+	<message key="submission.date.yyyymmdd">JJJJ-MM-TT</message>
+	<message key="submissions.noSubmissions">Neniu kontribuo</message>
+	<message key="submission.dueDate">Limdato por ensendi</message>
+	<message key="submission.due">Ensendenda ĝis</message>
+	<message key="submission.titleAndAbstract">Titolo kaj resumo.</message>
+	<message key="submission.indexing">Indeksado</message>
+	<message key="submission.agencies">Subtenantaj organizoj</message>
+	<message key="submissions.incomplete">Nekompletaj</message>
+	<message key="submissions.queuedEditing">Redaktotaj</message>
+
+	<message key="submission.review">Reviziado</message>
+	<message key="submission.page.editing">#{$id} redaktado</message>
+	<message key="submission.page.history">#{$id} historio</message>
+	<message key="submission.page.review">#{$id} revizio</message>
+	<message key="submission.page.summary">#{$id} resumo</message>
+	<message key="submission.page.citations">#{$id} citaĵoj</message>
+	<message key="submission.editing">Redaktado</message>
+	<message key="submission.history">Historio</message>
+	<message key="submission.review">Revizio</message>
+	<message key="submission.summary">Resumo</message>
+	<message key="submission.citations">Citaĵoj</message>
+	<message key="submission.peerReview">Kolega reviziado</message>
+	<message key="submission.reviewVersion">Reviziota versio</message>
+
+	<message key="submission.ask">Demandi</message>
+	<message key="submission.done">Farite</message>
+
+	<message key="submission.layout">Enpaĝigo</message>
+	<message key="submissions.ruling">Decido</message>
+
+	<message key="submission.restrictions">Limigoj</message>
+
+	<message key="submission.request">Petitaj</message>
+	<message key="submission.underway">Prilaborataj</message>
+	<message key="submission.acknowledge">Akceptitaj</message>
+
+	<message key="submission.accepted">Akceptita</message>
+	<message key="submission.response">Respondo</message>
+	
+	<message key="submission.metadata">Metadatumoj de la kontribuaĵo</message>
+	<message key="submission.viewMetadata">Rigardi metadatumojn</message>
+	<message key="submission.submissionManuscript">Manuskripto de la kontribuaĵo</message>
+	<message key="submission.logType.review">Ekspertizo</message>
+	<message key="submission.recommendation">Rekomendo</message>
+
+	<message key="submission.supportingAgencies">Subtenita de</message>
+
+	<message key="submission.uploadFileTo">Alŝuti dosieron al</message>
+	<message key="submission.createRemote">Keri foran stokejon</message>
+	<message key="submission.uploadUserGroup">Alŝuti en mia rolo kiel …</message>
+	<message key="submission.uploadSuccessful">Via dosiero estas alŝutita.</message>
+
+	<message key="submission.complete">Kompletaj</message>
+
+	<message key="submission.layout.layoutVersion">Enpaĝiga versio</message>
+	<message key="submission.layout.noLayoutFile">Neniu (alŝutu finan provlegitan version antaŭ ol sendi peton.)</message>
+	<message key="submission.layout.galleyFormat">Presprovaĵa formato</message>
+	<message key="submission.galley">Presprovaĵo</message>
+
+	<message key="submission.layout.editGalley">Redakti presprovaĵon</message>
+	<message key="submission.layout.galleyFileData">Presprovaĵaj datumoj</message>
+	<message key="submission.layout.galleyLabel">Priskribo</message>
+	<message key="submission.layout.galleyLabelInstructions">por priskribi la formaton de la dosiero</message>
+
+	<message key="submission.layout.layoutComments">Enpaĝigaj komentoj</message>
+
+	<message key="submission.layout.viewProof">Rigardi presprovaĵojn</message>
+	<message key="submission.backToSubmissionEditing">Reen al redaktado</message>
+
+	<message key="submission.supplementaryFiles">Kromdosieroj</message>
+
+
+	<message key="submission.proofread.corrections">Kontrollegadaj korektoj</message>
+
+	<message key="submission.reviewMetadata">Kontroli metadatumojn</message>
+	<message key="submission.views">Aspektoj</message>
+
+	<message key="submission.editMetadata">Redakti metadatumojn</message>
+	<message key="submission.saveMetadata">Konservi metadatumojn</message>
+
+	<message key="submission.comments.comments">Komentoj</message>
+	<message key="submission.comments.noComments">Neniuj komentoj</message>
+	<message key="submission.comments.subject">Temo</message>
+
+	<message key="submission.comments.importPeerReviews">Enporti reviziaĵojn</message>
+
+	<message key="submission.originalFile">Origina dosiero</message>
+	<message key="submission.submitter">Ensendita de</message>
+	<message key="submission.addSuppFile">Aldoni kromdosieron</message>
+	<message key="submission.abstractViews">Rigardoj de resumoj</message>
+	<message key="submission.initiated">Komencita</message>
+	<message key="submission.lastModified">Laste modifiita</message>
+
+
+	<message key="submissions.active">Aktivaj</message>
+	<message key="submissions.completed">Finitaj</message>
+	<message key="submissions.archived">Enarkivaj</message>
+
+	<message key="submission.layout.confirmDeleteGalley">Ĉu vi certas ke vi volas viŝi tiun ĉi dosieron?</message>
+
+	<message key="submission.citations.editor.introduction">Enkonduko</message>
+	<message key="submission.citations.editor.edit">Redakti citaĵojn</message>
+	<message key="submission.citations.editor.export">Elporti citaĵojn</message>
+	<message key="submission.citations.editor.pleaseSetup">
+	  <![CDATA[Bonvolu peti vian revuan administranton <a
+	  href="{$citationSetupUrl}">aktivigi la redaktilon por la
+	  citaĵoj</a>, por ke vi povu lanĉi la atestilon por
+	  citaĵoj]]>
+	</message>
+		<message key="submission.citations.editor.introduction.introductionMessage"><![CDATA[<h4>Willkommen zum Assistenten für die Zitationsauszeichnung</h4>
+	<p>Mit diesem Assistenten können Sie von den Autor/innen gelieferte Zitationen für den Export in XML-Dateien gemäß NLM 2.3 oder 3.0 auszeichnen oder alternativ als textbasierte Ausgabe. Dieses Werkzeug versucht zunächst, Zitationen in der gelieferten Form automatisch zu extrahieren und zu erkennen, aber Sie können zu jeder Zeit eingreifen und die Ergebnisse bearbeiten.</p>
+	<ul>
+		<li><p><strong>Assistenten konfigurieren</strong></p>
+		<p>Der Assistent zur Zitationsauszeichnung wird durch den/die Zeitschriftenverwalter/in konfiguriert in <a href="{$citationSetupUrl}">Schritt 3.7 des Setups: Zitationsauszeichnungsassistent</a>. Verschiedene Werkzeuge zur Zitationsextraktion und -prüfung können hinzugefügt, eingerichtet und gelöscht werden. Für weitere Informationen kontaktieren Sie bitten den/die Zeitschriftenverwalter/in.</p></li>
+		<li><p><strong>Navigieren in der Schnittstelle des Assistenten</strong></p>
+		<p>Um zwischen den Reitern <strong>Einleitung</strong>, <strong>Zitationen bearbeiten</strong> und <strong>Zitationen exportieren</strong> zu wechseln, klicken Sie bitte die Reitertitel an. Um die Zitationsschnittstelle zu erweitern, klicken Sie den <strong>Vollbild</strong>-Knopf. Um aus dem Vollbild zur normalen Ansicht zurückzukehren, klicken Sie den <strong>Vollbild aus</strong>-Knopf. Um diese Einleitung komplett zu entfernen, klicken Sie den Knopf unten.</p></li>
+		<li><p><strong>Zitationen anfordern</strong></p>
+		<p>Wenn der Assistent zur Zitationsauszeichnung durch den/die Zeitschriftenverwalter/in aktiviert worden ist, werden Autor/innen während des Einreichungsprozesses nach einer Liste der Verweise gefragt. Diese Verweise werden getrennt vom eingereichten Dokument selber abgefragt. Nach der Einreichung können Autor/innen ihre Liste der Verweise jederzeit durch Bearbeitung der Metadaten des Beitrags ändern; beachten Sie bitte, dass dies alle Änderungen, die Sie mittels dieses Werkzeugs  vorgenommen haben, überschreiben wird.</p></li>
+		<li><p><strong>Zitationen bearbeiten</strong></p>
+		<p>Der Assistent zur Zitationsauszeichnung wird versuchen, die einzelnen Zitationen aus der Verweiseliste des Autoren/der Autorin zu identifizieren und zu extrahieren. Sie können systematisch jeden Versuch der Extraktion einer Zitation anhand einer Anzahl externer Datenbanken überprüfen, falsche Zitationsinformationen bearbeiten und neue Informationen hinzufügen, Zitationen akzeptieren oder löschen und neue Zitationen hinzufügen.</p>
+		<p>Alle endgültigen Zitationen eines Beitrags müssen akzeptiert werden, bevor sie exportiert werden können.</p></li>
+		<li><p><strong>Zitationen exportieren</strong></p>
+		<p>Zitationen können als XML oder als Text exportiert werden. Die XML-Export-Optionen beinhalten im Moment <a href="http://dtd.nlm.nih.gov/publishing/">NLM Journal Publishing</a> 2.3 und 3.0 <a href="http://www.ncbi.nlm.nih.gov/pmc/pmcdoc/tagging-guidelines/article/tags.html#el-reflist">ref-list XML</a>. Wird eine dieser Optionen gewählt, wird ein XML-kodierter Block mit Verweisen ausgegben, der kopiert und in eine NLM-XML-Fahne eingefügt werden kann.</p>
+		<p>Experimentelle Text-Export-Optionen beinhalten die Stile ABNT, APA, MLA und Vancouver. Diese Optionen liefern eine Textausgabe, die kopiert und in textbasierte Artikelfahnen eingefügt werden kann (zum Beispiel in Microsoft Word oder OpenOffice, Adobe InDesign etc.). Jede Zitationen umfasst einen eingebauten Link zur automatischen Suche nach dieser Zitation in Google Scholar.</p>
+	</li></ul>]]></message>
+
+	<message key="submission.review.mustUploadFileForReview">
+	  Retemsaĝo por peti povas esti sendata nur post kiam disponebliĝis reviziota versio.
+	</message>
+	<message key="submission.review.mustUploadFileForCopyedit">
+	  Retemsaĝo por peti povas esti sendata nur post kiam dosiero estas elektita por provlegado.
+	</message>
+	<message key="submission.review.mustUploadFileInitialCopyedit">
+	  Retemsaĝo por peti povas esti sendata nur post kiam disponebliĝis provlegota versio.
+	</message>
+	
+	<message key="submission.history.clearLog">Forviŝi protokolon.</message>
+	<message key="submission.history">Protokolo</message>
+	<message key="submission.history.noLogEntries">Neniu enmetaĵo en la protokolo</message>
+	<message key="submission.history.recentLogEntries">Novaj enmetaĵoj</message>
+	<message key="submission.history.submissionEmailLog">Protokolo de retpoŝtoj</message>
+	<message key="submission.history.submissionEventLog">Protokolo de eventoj</message>
+	<message key="submission.history.submissionNotes">Enmetaĵoj pri kontribuoj</message>
+	<message key="submission.history.viewLog">Montri protokolon</message>
+
+	<message key="submission.notes.addNewNote">Aldoni plian noton.</message>
+	<message key="submission.notes.attachedFile">Aldonita dosiero</message>
+	<message key="submission.notes.backToSubmissionNotes">Reen al la notoj pri la kontribuo</message>
+	<message key="submission.notes.breadcrumb">Notoj</message>
+	<message key="submission.notes.clearAllNotes">Forviŝi ĉiujn notojn</message>
+	<message key="submission.notes.collapseNotes">Malgrandigi notojn</message>
+	<message key="submission.notes.confirmDeleteAll">Ĉu vi volas forviŝi ĉiujn noton pri la kontribuo?</message>
+	<message key="submission.notes.confirmDelete">Ĉu vi volas forviŝi tiun-ĉi noton?</message>
+	<message key="submission.notes.createNewNote">Krei novan noton</message>
+	<message key="submission.notes.deleteNote">Forviŝi noton</message>
+	<message key="submission.notes.editNote">Redakti noton</message>
+	<message key="submission.notes.expandNotes">Pligrandigi notojn</message>
+	<message key="submission.notes.noSubmissionNotes">Neniu noto pro la kontribuo</message>
+	<message key="submission.notes.removeUploadedFile">Forviŝi alŝutitan disieron</message>
+	<message key="submission.notes">Notoj pri la kontribuo</message>
+	<message key="submission.notes.updateNote">Ĝisdatigi notojn</message>
+	<message key="submission.notes.viewNotes">Montri notojn</message>
+
+</locale>

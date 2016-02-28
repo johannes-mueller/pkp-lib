@@ -3,8 +3,8 @@
 /**
  * @file classes/validation/ValidatorORCID.inc.php
  *
- * Copyright (c) 2013-2016 Simon Fraser University Library
- * Copyright (c) 2000-2016 John Willinsky
+ * Copyright (c) 2013-2014 Simon Fraser University Library
+ * Copyright (c) 2000-2014 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * @class ValidatorORCID
@@ -37,14 +37,19 @@ class ValidatorORCID extends ValidatorRegExp {
 		if (!parent::isValid($value)) return false;
 
 		// Test the check digit
-		// ORCID is an extension of ISNI
+		// Based on the ORCID checksum at: 
 		// http://support.orcid.org/knowledgebase/articles/116780-structure-of-the-orcid-identifier
 		$matches = $this->getMatches();
 		$orcid = $matches[1] . $matches[2] . $matches[3] . $matches[4];
 
-		import('lib.pkp.classes.validation.ValidatorISNI');
-		$validator = new ValidatorISNI();
-		return $validator->isValid($orcid);
+		$total = 0;
+		for ($i=0; $i<15; $i++) {
+			$total = ($total + $orcid[$i]) * 2;
+		}
+		
+		$remainder = $total % 11;
+		$result = (12 - $remainder) % 11;
+		return ($orcid[15] == ($result==10 ? 'X' : $result));
 	}
 
 	//

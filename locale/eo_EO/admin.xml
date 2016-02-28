@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/eo_EO/admin.xml
+  *
+  * Copyright (c) 2013-2014 Simon Fraser University Library
+  * Copyright (c) 2000-2014 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the eo_EO (Esperanto) locale.
+  *
+  -->
+
+<locale name="eo_EO" full_name = "Esperanto">
+	<message key="admin.adminFunctions">Administraj funkcioj</message>
+	<message key="admin.auth.confirmDelete">Ĉu vi certas ke vi volas forigi tiun ĉi aŭtentigan fonton?</message>
+	<message key="admin.auth.create">Krei aŭtentigan fonton</message>
+	<message key="admin.auth.noneCreated">Neniaj aŭtentigaj fontoj difinitaj.</message>
+	<message key="admin.authSources">Aŭtentigaj fontoj</message>
+	<message key="admin.clearDataCache">Vakigi datuman kaŝujon</message>
+	<message key="admin.clearTemplateCache">Vakigi ŝablonan kaŝujon</message>
+	<message key="admin.configFileUpdatedInstructions">
+	<![CDATA[Viaj agordoj sukcese ĝisdatiĝis. Bonvolu noti, ke se via
+	retejo ne plu bone funkcias vi devas modifi <tt>config.inc.php</tt>
+	mane.]]></message>
+	<message key="admin.confirmClearTemplateCache">Ĉu vi certas, ke vi volas vakigi la ŝablonan kaŝujon?</message>
+	<message key="admin.confirmExpireSessions">Ĉu vi certas, ke vi volas
+	senvalidigi ĉiujn uzantsesiojn? Ĉiuj ensalutintaj uzantoj estos
+	devigataj reensaluti (eĉ vi mem).</message>
+	<message key="admin.contentsOfConfigFile">Enhavo de agorda dosiero</message>
+	<message key="admin.currentVersion">Aktuala versio</message>
+	<message key="admin.dateInstalled">Instaldato</message>
+	<message key="admin.displayConfigFileInstructions"><![CDATA[La enhavo de via ĝisdatigitaj agordoj estas montrataj sube. Por apliki la agordon vi malfermu <tt>config.inc.php</tt> per tekstredaktilo kaj anstataŭigi ĝian enhavon per la teksto ĉi-suba.]]></message>
+	<message key="admin.displayNewSystemConfig">Montri novajn agordojn</message>
+	<message key="admin.expireSessions">Malvalidigi uzantaj sesioj</message>
+	<message key="admin.languages.confirmReload">
+	  Ĉu vi certas, ke vi volas reŝarĝi tiun ĉi lokaĵaron? Tio detruos
+	  ajnajn ekzistantajn lokaĵarajn datumojn kiel ekzemple modifiitajn
+	  retpoŝtajn ŝablonojn.
+	</message>
+	<message key="admin.languages.installedLocales">Instalitaj lokaĵaroj</message>
+	<message key="admin.languages.installLanguages">Administri lokaĵarojn</message>
+	<message key="admin.languages.installLocales">Instali</message>
+	<message key="admin.languages.installNewLocales">Instali novajn lokaĵarojn</message>
+	<message key="admin.languages.languageSettings">Lingvaj agordoj</message>
+	<message key="admin.languages.noLocalesAvailable">Neniaj pliaj lokaĵaroj disponeblaj por tiu ĉi instalaĵo.</message>
+	<message key="admin.languages.reload">Reŝargi lokaĵaron</message>
+	<message key="admin.languages.uninstall">Malinstali lokaĵaron</message>
+	<message key="admin.phpInfo">Etendita PHP informo </message>
+	<message key="admin.scheduledTask">Planita tasko</message>
+	<message key="admin.scheduledTask.startTime">Tasko komencita.</message>
+	<message key="admin.scheduledTask.stopTime">Tasko haltigita.</message>
+	<message key="admin.scheduledTask.noLog">Tasko ne produktis protokolon.</message>
+	<message key="admin.scheduledTask.openAccessNotification">Malfermalira sciigo</message>
+	<message key="admin.scheduledTask.reviewReminder">Revizia memoro</message>
+	<message key="admin.scheduledTask.subscriptionExpiryReminder">Memoro pri senvalidiĝonta abono</message>
+	<message key="admin.server.apacheVersion">Apache versio</message>
+	<message key="admin.server.dbDriver">Datumbaza programaĵo</message>
+	<message key="admin.server.dbVersion">Datumbaza programaĵa versioo</message>
+	<message key="admin.serverInformationDescription"><![CDATA[Bazaj operaciumaj kaj servilaj versioj. Klaku al <span class="highlight">Etenditaj PHP Informoj</span> por vidi etenditajn detalojn de la PHP agordoj de tiu ĉi servilo.]]></message>
+	<message key="admin.serverInformation">Servilaj informoj</message>
+	<message key="admin.server.phpVersion">PHP versio</message>
+	<message key="admin.server.platform">Operaciumo</message>
+	<message key="admin.settings">Agordoj</message>
+	<message key="admin.settings.aboutDescription">Pri reteja priskribo</message>
+	<message key="admin.settings.contactEmail">Retpoŝtadreso de ĉefa kontakto</message>
+	<message key="admin.settings.contactName">Nomo de ĉefa kontakto</message>
+	<message key="admin.settings.form.contactEmailRequired">Retpoŝtadreso de ĉefa kontakto estas bezonata.</message>
+	<message key="admin.settings.form.contactNameRequired">Nomo de ĉefa kontakto estas bezonata.</message>
+	<message key="admin.settings.form.minPasswordLengthRequired">Vi devas entajpi pasvorton minimume 4 signojn logan.</message>
+	<message key="admin.settings.form.titleRequired">Titolo estas bezonata.</message>
+	<message key="admin.settings.homeHeaderImage.altText">Reteja emblemo</message>
+	<message key="admin.settings.homeHeaderImageInvalid">Maltaŭga bildformato. Akcepteblaj formatoj estas .gif, .jpg, aŭ .png.</message>
+	<message key="admin.settings.introduction">Enkonduko</message>
+	<message key="admin.settings.minPasswordLength">Minimuma pasvorta longeco</message>
+	<message key="admin.settings.oneStepReset">Ĉu uzi unupaŝan pasvortnuligon?</message>
+	<message key="admin.settings.oaiRegistration">Registriĝi retejon por indeksado (Metadata Harvesting)</message>
+	<message key="admin.settings.passwordCharacters">signoj</message>
+	<message key="admin.settings.siteLanguage">Reteja lingvo</message>
+	<message key="admin.settings.siteStyleSheetInvalid">Nevalida aspektfolia formato. Akceptebla estas .css.</message>
+	<message key="admin.settings.siteStyleSheet">Reteja aspektfolio</message>
+	<message key="admin.settings.siteTheme">Reteja aspekto</message>
+	<message key="admin.settings.siteTitle">Reteja titolo</message>
+	<message key="admin.siteAdmin">Reteja administro</message>
+	<message key="admin.siteManagement">Reteja mastrumado</message>
+	<message key="admin.siteSettings">Retaja agordo</message>
+	<message key="admin.siteSetup">Retaja starigo</message>
+	<message key="admin.systemConfigFileReadError"><![CDATA[La agroda dosiero <tt>config.inc.php</tt> ne ekzistas, estas nelegebla aŭ malvalida.]]></message>
+	<message key="admin.systemInformation">Sistema informo</message>
+	<message key="admin.versionBuild">Konstruo</message>
+	<message key="admin.version.checkForUpdates">Serĉi ĝisdatigojn</message>
+	<message key="admin.version.downloadPackage">Elŝuti</message>
+	<message key="admin.version.downloadPatch">Elŝuti flikaĵon</message>
+	<message key="admin.versionHistory">Versia historio</message>
+	<message key="admin.version.latest">Aktuala versio</message>
+	<message key="admin.versionMajor">majora</message>
+	<message key="admin.versionMinor">minora</message>
+	<message key="admin.version.moreInfo">Pliaj informoj</message>
+	<message key="admin.versionRevision">Revizio</message>
+	<message key="admin.version.updateAvailable">Ĝisdatigo disponebla</message>
+	<message key="admin.version.upToDate">Via sistemo estas aktuala</message>
+	<message key="admin.version">Versio</message>
+	
+	<message key="admin.fileLoader.wrongBasePathLocation">Baza pado {$path} devas esti en la publika dosierujo.</message>
+	<message key="admin.fileLoader.pathNotAccessible">Dosierujo {$path} ne estas dosierujo aŭ nelegebla.</message>
+	<message key="admin.fileLoader.moveFileFailed">Dosiero {$filename} ne povis esti ŝovata de {$currentFilePath} al {$destinationPath}</message>
+	<message key="admin.fileLoader.fileProcessed">Dosiero {$filename} estis traktata kaj enarkivigita.</message>
+	<message key="admin.fileLoader">Dosierŝarĝilo</message>
+</locale>

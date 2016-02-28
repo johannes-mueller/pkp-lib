@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/eo_EO/common.xml
+  *
+  * Copyright (c) 2013-2014 Simon Fraser University Library
+  * Copyright (c) 2000-2014 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the eo_EO (Esperanto) locale.
+  *
+  -->
+
+<locale name="eo_EO" full_name = "Esperanto">
+	<message key="about.aboutSite">Pri la retejo</message>
+	<message key="about.contact">Kontakto</message>
+	<message key="about.contact.email">Retpoŝto</message>
+	<message key="about.contact.fax">Fakso</message>
+	<message key="about.contact.phone">Telefono</message>
+	<message key="about.contact.principalContact">Ĉefa kontakto</message>
+	<message key="about.contact.supportContact">Kroma kontakto</message>
+	<message key="about.other">Alia</message>
+	<message key="about.people">Homoj</message>
+	<message key="about.policies">Reguloj</message>
+	<message key="about.siteMap">Reteja mapo</message>
+	<message key="announcement.announcements">Anoncoj</message>
+	<message key="announcement.announcementsHome">Anoncoj</message>
+	<message key="announcement.moreAnnouncements">Pliaj anoncoj...</message>
+	<message key="announcement.noneExist">Neniaj publikigitaj anoncoj.</message>
+	<message key="announcement.posted">Afiŝitaj</message>
+	<message key="announcement.postedOn">Afiŝita je {$postDate}</message>
+	<message key="announcement.viewLink">Pli...</message>
+	<message key="announcement.view">Rigardi anoncon</message>
+	<message key="common.accepted">Akceptitaj</message>
+	<message key="common.acknowledged">Aprobitaj</message>
+	<message key="common.action">Ago</message>
+	<message key="common.activate">Aktivigi</message>
+	<message key="common.active">Aktivaj</message>
+	<message key="common.add">Aldoni</message>
+	<message key="common.addSelf">Aldoni mem</message>
+	<message key="common.all">Ĉiuj</message>
+	<message key="common.alphaList">A B C Ĉ D E F G Ĝ H Ĥ I J Ĵ K L M N O P Q R S Ŝ T U Ŭ V W X Y Z</message>
+	<message key="common.titleSmallWords">de la kaj aŭ nek sed estas se tiam kiam sur ĉe por pro en el super al kun per</message>
+	<message key="common.alreadyAssigned">Asignitaj</message>
+	<message key="common.altText">Alternativa teksto</message>
+	<message key="common.altTextInstructions">
+	  Bonvolu aldoni alternativan tekston por tiu bildo por certigi
+	  alireblon por uzantoj de nurtekstaj retumiloj aŭ helpaj aparatoj.
+	</message>
+	<message key="common.and">kaj</message>
+	<message key="common.applyAction">Apliki agon</message>
+	<message key="common.assign">Asigni</message>
+	<message key="common.assigned">Asignita</message>
+	<message key="common.back">Reen</message>
+	<message key="common.between">inter</message>
+	<message key="common.cancel">Rezigni</message>	
+	<message key="common.cancelled">Rezigninta</message>
+	<message key="common.warning">Averto</message>
+	<message key="common.error">Eraro</message>
+	<message key="common.notice">Rimarkigo</message>
+	<message key="common.captchaField.altText">Validiga bildo</message>
+	<message key="common.captchaField.badCaptcha">
+	  La signoj entajpitaj ne kongruas kun la signoj en la bildo. Bonvolu kontroli la signojn kaj reprovu.
+	</message>
+	<message key="common.captchaField.description">Bonvolu entajpi la signojn el la supra bildo.</message>
+	<message key="common.captchaField">Validigo</message>
+	<message key="common.ccLicense"><![CDATA[
+		<br /><br />
+		<a target="_blank" rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.eo">
+			<img alt="Krea komunaĵa permesilo" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png"/>
+		</a>
+		<br/>
+		Tiu ĉi laboro estas eldonita laŭ <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/3.0/deed.eo">
+		Krea komunaĵa atribuita permesilo 3.0</a>.
+	]]></message>
+	<message key="common.ccLicense.rt"><![CDATA[
+	<div class="rtBlock">
+		<br />
+		<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.eo" target="_blank"><img alt="Krea komunaĵa permesilo" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
+		<br />
+		Tiu ĉi laboro estas eldonita laŭ <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/3.0/deed.eo">
+		Krea komunaĵa atribuita permesilo 3.0</a>.
+	</div>
+	]]></message>
+	<message key="common.changesSaved">Ŝanĝoj konservitaj.</message>
+	<message key="common.chooseOne">Elektu unu</message>
+	<message key="common.close">Fermi</message>
+	<message key="common.closeWindow">Fermi fenestron</message>
+	<message key="common.complete">Kompleta</message>
+	<message key="common.completed">Kompletigita</message>
+	<message key="common.confirm">Konfirmi</message>
+	<message key="common.content">Enhavo</message>
+	<message key="common.considered">Konsiderataj</message>
+	<message key="common.continue">Daŭrigi</message>
+	<message key="common.copy">Kopii</message>
+	<message key="common.country">Lando</message>
+	<message key="common.create">Krei</message>
+	<message key="common.dateCompleted">Dato kompletigita</message>
+	<message key="common.date">Dato</message>
+	<message key="common.dateModified">Dato ŝanĝita</message>
+	<message key="common.dateRequested">Dato demandita</message>
+	<message key="common.dateSubmitted">Dato ensendita</message>
+	<message key="common.dateUploaded">Dato alŝutita</message>
+	<message key="common.day">Tago</message>
+	<message key="common.deactivate">Malaktivitgi</message>
+	<message key="common.default">Defaŭlto</message>
+	<message key="common.declined">Malaprobitaj</message>
+	<message key="common.delete">Nuligi</message>
+	<message key="common.deleteSelection">Nuligi elekto</message>
+	<message key="common.description">Priskribo</message>
+	<message key="common.disable">Malebligi</message>
+	<message key="common.disabled">Malebligita</message>
+	<message key="common.discipline">Disciplino</message>
+	<message key="common.done">Farite</message>
+	<message key="common.download">Elŝuti</message>
+	<message key="common.edit">Redakti</message>
+	<message key="common.enable">Ebligi</message>
+	<message key="common.enabled">Ebligita</message>
+	<message key="common.error.databaseError">Okazis datumaza eraro: {$error}</message>
+	<message key="common.error.databaseErrorUnknown">Okazis nekonata datumbaza eraro.</message>
+	<message key="common.error.framesRequired"><![CDATA[Tiu paĝo bezonas kadrojn. <a href="{$url}">Klaku ĉi-tie</a> por senkadra versio.]]></message>
+	<message key="common.event">Evento</message>
+	<message key="common.export">Elporti</message>
+	<message key="common.finish">Fini</message>
+	<message key="common.fullscreen">Plenekrane</message>
+	<message key="common.fullscreenOff">Neplenekrane</message>
+	<message key="common.false">Malvera</message>
+	<message key="common.file">Dosiero</message>
+	<message key="common.fileName">Dosiernomo</message>
+	<message key="common.fileSize">Dosiergrandeco</message>
+	<message key="common.fileType">Dosiertipo</message>
+	<message key="common.go">Ek</message>
+	<message key="common.height">Alteco</message>
+	<message key="common.homePageHeaderLogo.altText">Reteja kapemblemo</message>
+	<message key="common.hour">Horo</message>
+	<message key="common.id">ID</message>
+	<message key="common.import">Enporti</message>
+	<message key="common.initiate">Iniciati</message>
+	<message key="common.inProgress">Progresanta</message>
+	<message key="common.keywords">Kapvortoj</message>
+	<message key="common.language">Lingvo</message>
+	<message key="common.languages">Lingvoj</message>
+	<message key="common.less">Malpli</message>
+	<message key="common.manage">Administri</message>
+	<message key="common.mailingAddress">Poŝta adreso</message>
+	<message key="common.billingAddress">Faktura adreso (se malsama)</message>
+	<message key="common.minute">Minuto(j)</message>
+	<message key="common.modify">Modifi</message>
+	<message key="common.month">Monato</message>
+	<message key="common.more">Pli</message>
+	<message key="common.noneAssigned">Neniu asignita</message>
+	<message key="common.none">Neniu</message>
+	<message key="common.no">Ne</message>
+	<message key="common.noComments">Neniaj komentoj</message>
+	<message key="common.notApplicable">Ne aplikebla</message>
+	<message key="common.notApplicableShort">N/D</message>
+	<message key="common.notAvailable">Ne disponebla</message>
+	<message key="common.note">Noto</message>
+	<message key="common.notes">Notoj</message>
+	<message key="common.notified">Sciigita</message>
+	<message key="common.noMatches">Neniaj trafoj</message>
+	<message key="common.off">jes</message>
+	<message key="common.on">ne</message>
+	<message key="common.ok">Bone</message>
+	<message key="common.options">Opcioj</message>
+	<message key="common.order">Mendo</message>
+	<message key="common.originalFileName">Originala dosiernomo</message>
+	<message key="common.or">aŭ</message>
+	<message key="common.other">alia</message>
+	<message key="common.overdue">Malfruaj</message>
+	<message key="common.pageHeaderLogo.altText">Reteja kapemblemo</message>
+	<message key="common.plugin">Kromaĵo</message>
+	<message key="common.pluginEnabled">La kromaĵo "{$pluginName}" estas ebligita.</message>
+	<message key="common.pluginDisabled">La kromaĵo "{$pluginName}" estas malebligita.</message>
+	<message key="common.preview">Antaŭrigardi</message>
+	<message key="common.publisher">Eldonejo</message>
+	<message key="common.re">Re:</message>
+	<message key="common.record">Registri</message>
+	<message key="common.refresh">Refreŝigi</message>
+	<message key="common.related">Rilataj</message>
+	<message key="common.reminder">Memorigo</message>
+	<message key="common.remote">Distanca</message>
+	<message key="common.remoteURL">Distnaca URL</message>
+	<message key="common.remove">Forigi</message>
+	<message key="common.removeSelection">Forigi elekton</message>
+	<message key="common.replaced">Anstataŭigitaj</message>
+	<message key="common.replaceFile">Anstataŭigi dosieron</message>
+	<message key="common.requiredField">* indikas devigan kampon</message>
+	<message key="common.required">Diviga</message>
+	<message key="common.reset">Remeti</message>
+	<message key="common.saveAndContinue">Konservi kaj daŭrigi</message>
+	<message key="common.saveAndEmail">Konservi kaj sendi</message>
+	<message key="common.save">Konservi</message>
+	<message key="common.search">Serĉi</message>
+	<message key="common.second">Sekundo(j)</message>
+	<message key="common.selectAll">Elekti ĉion</message>
+	<message key="common.selectNone">Elekti nenion</message>
+	<message key="common.select">Elekti</message>
+	<message key="common.signoff">Ensaluti</message>
+	<message key="common.size">Grandeco</message>
+	<message key="common.source">Fonto</message>
+	<message key="common.status">Stato</message>
+	<message key="common.subject">Temo</message>
+	<message key="common.suggest">Sugesti</message>
+	<message key="common.title">Titiolo</message>
+	<message key="common.top">Supren</message>
+	<message key="common.true">Vera</message>
+	<message key="common.type">Tipo</message>
+	<message key="common.element">Elemento</message>
+	<message key="common.uninitiated">Neiniciataj</message>
+	<message key="common.unread">Nelegitaj</message>
+	<message key="common.untitled">Netitolitaj</message>
+	<message key="common.updated">Ĝisdatigita</message>
+	<message key="common.uploadedFile">Alŝutita dosiero</message>
+	<message key="common.upload">Alŝuti</message>
+	<message key="common.uploadFailed">Ne eblis alŝuti la dosieron por revizio.</message>
+	<message key="common.fileUpload.maxFileSizeStatus"><![CDATA[Tiu ĉi servilo permesas maksimuman alŝuton de {$fileSize}.  Laŭbezone kontaktu <a href="mailto:{$supportEmail}">{$supportName}</a> por peti helpon.]]></message>
+	<message key="common.invalidFileType">Neniu dosiero alŝutita aŭ maltaŭga dosiertipo!</message>
+	<message key="common.up">Supren</message>
+	<message key="common.url">URL</message>
+	<message key="common.user">Uzanto</message>
+	<message key="common.view">Rigardi</message>
+	<message key="common.weeks">semajnoj</message>
+	<message key="common.width">Laĝeco</message>
+	<message key="common.year">Jaro</message>
+	<message key="common.yes">Jes</message>
+	<message key="common.loading">Ŝargante ...</message>
+	<message key="common.plugins">Kromaĵoj</message>
+	<message key="common.metric">Metrico</message>
+	<message key="common.count">Nombri</message>
+	<message key="debug.databaseQueries">Nombro de datumbazaj demandoj</message>
+	<message key="debug.executionTime">Paĝo generita per</message>
+	<message key="debug.memoryUsage">Memoruzo</message>
+	<message key="debug.notes.localeListLoad">Legis lokaĵara liston "{$localeList}" de XML</message>
+	<message key="debug.notes.localeLoad">Legis lokaĵara dosieron "{$localeFile}" de XML</message>
+	<message key="debug.notes.missingLocaleKey">Mankanta lokaĵara kodo "{$key}".</message>
+	<message key="debug.notes">Notoj:</message>
+	<message key="defaultMetric.title">Defaŭlta Metrico</message>
+	<message key="defaultMetric.availableMetrics">Disponeblaj Metricoj</message>	
+	<message key="email.addAttachment">Aldoni aldonaĵon</message>
+	<message key="email.addBccRecipient">Aldoni BCC</message>
+	<message key="email.addCcRecipient">Aldoni CC</message>
+	<message key="email.addToRecipient">Aldoni ricevanton</message>
+	<message key="email.attachments">Aldonaĵoj</message>
+	<message key="email.bcc">BCC</message>
+	<message key="email.bccSender">Sendi kopion de tiu ĉi mesaĝo al mia adreso ({$address})</message>
+	<message key="email.body">Korpo</message>
+	<message key="email.cc">CC</message>
+	<message key="email.compose">Sendi mesaĝon</message>
+	<message key="email.compose.tooManyRecipients">La mesaĝo havas tro multajn ricevantojn.</message>
+	<message key="email.compose.tooSoon">Vi provas sendi mesaĝon mallonge post via antaŭa mesaĝo. Bonvolu atendi iom da tempo.</message>
+	<message key="email.email">Retpoŝto</message>
+	<message key="email.from">de</message>
+	<message key="email.invalid">La adreso {$email} ne validas.</message>
+	<message key="email.multipart">Tiu ĉi estas multparta mesaĝo en MIME formato.</message>
+	<message key="email.recipient">Ricevanto</message>
+	<message key="email.recipients">Ricevantoj</message>
+	<message key="email.sender">Sendinto</message>
+	<message key="email.send">Sendi</message>
+	<message key="email.skip">Transalti retpoŝton</message>
+	<message key="email.subject">Temo</message>
+	<message key="email.subjectRequired">Bonvolu aldoni retpoŝtan temon.</message>
+	<message key="email.bodyRequired">Bonvolu aldoni retpoŝtan tekston.</message>
+	<message key="email.to">Al</message>
+	<message key="form.confirmSubmit">Ĉu vi certas, ke vi volas sendi tiun ĉi formularon?</message>
+	<message key="form.confirmSubmit.title">Konfirmi</message>
+	<message key="form.emailRequired">Retpoŝtadreso estas bezonata.</message>
+	<message key="form.dataHasChanged">Formulara datumo ŝanĝita. Ĉu tamen daŭrigi?</message>
+	<message key="form.errorsOccurred">Okazis eraroj prilaborante tiun ĉi formularon</message>
+	<message key="form.formLanguage.description">Por entajpi la suban informon en pluraj lingvoj, bonvolu unue elektu la lingvon.</message>
+	<message key="form.formLanguage">Formulara lingvo</message>
+	<message key="form.contains">enhavas</message>
+	<message key="form.is">estas</message>
+	<message key="form.startsWith">komenciĝas je</message>
+	<message key="form.postRequired">Tiu ĉi formularo ne estis bone ensendita.</message>
+	<message key="form.required">(* Devigaj)</message>
+	<message key="form.resubmit">Reensendi</message>
+	<message key="form.saveToUpload">Uzu "Konservi" por alŝuti.</message>
+	<message key="form.send">Sendi</message>
+	<message key="form.submit">Ensendi</message>
+	<message key="form.invalidImage">Ne valida bildo. Akcepteblaj formatoj .png, .gif, aŭ .jpg.</message>
+	<message key="help.contents">Enhavo</message>
+	<message key="help.help">Helpo</message>
+	<message key="help.toggleInlineHelpOn">Help ŝaltita</message>
+	<message key="help.toggleInlineHelpOff">Help malŝaltita</message>
+	<message key="help.helpIndex">Helpindekso</message>
+	<message key="help.matchesFound">{$matches} trafoj</message>
+	<message key="help.noMatchingTopics">Neniaj temoj trovitaj.</message>
+	<message key="help.relatedTopics">Rilataj temoj</message>
+	<message key="help.searchFor">Serĉi helptemojn por</message>
+	<message key="help.searchResultsFor">Rezultoj por</message>
+	<message key="help.searchResults">Serĉrezultoj</message>
+	<message key="help.search">Serĉhelpo</message>
+	<message key="help.toc">Enhavlisto</message>
+	<message key="help.upALevel">Ebenon supren</message>
+	<message key="icon.checked.alt">Markita</message>
+	<message key="icon.comment.alt">Komento</message>
+	<message key="icon.delete.alt">Nulitgi</message>
+	<message key="icon.edit.alt">Redakti</message>
+	<message key="icon.folder.alt">Dosierujo</message>
+	<message key="icon.font_large.alt">Granda</message>
+	<message key="icon.font_medium.alt">Mezgranda</message>
+	<message key="icon.font_small.alt">Malgranda</message>
+	<message key="icon.info.alt">Informo</message>
+	<message key="icon.letter.alt">Litero</message>
+	<message key="icon.mail.alt">Retpoŝto</message>
+	<message key="icon.unchecked.alt">Nemarkita</message>
+	<message key="icon.view.alt">Aspekto</message>
+	<message key="locale.primary">Cefa lokaĵaro</message>
+	<message key="locale.supported">Subtenataj lokaĵaroj</message>
+	<message key="navigation.website">Retejo</message>
+	<message key="navigation.access"><![CDATA[Uzantoj &amp; Roloj]]></message>
+	<message key="navigation.about">Pri</message>
+	<message key="navigation.admin">Administo</message>
+	<message key="navigation.browse">Foliumi</message>
+	<message key="navigation.browseByAuthor">Laŭ aŭtoro</message>
+	<message key="navigation.browseByTitle">Laŭ titolo</message>
+	<message key="navigation.dashboard">Panelo</message>
+	<message key="navigation.data">Datumo</message>
+	<message key="navigation.home">Komenca paĝo</message>
+	<message key="navigation.infoForReaders">Por legantoj</message>
+	<message key="navigation.infoForReaders.long">Informoj por legantoj</message>
+	<message key="navigation.items">{$from} - {$to} de {$total} eroj</message>
+	<message key="navigation.login">Ensaluti</message>
+	<message key="navigation.nextPage"><![CDATA[&gt;&gt;]]></message>
+	<message key="navigation.nextStep">Sekva paŝo</message>
+	<message key="navigation.previousPage"><![CDATA[&lt;&lt;]]></message>
+	<message key="navigation.previousStep">Antaŭa paŝo</message>
+	<message key="navigation.publicMenu">Publoka menuo</message>
+	<message key="navigation.register">Registriĝi</message>
+	<message key="navigation.search">Serĉi</message>
+	<message key="navigation.settings">Agordoj</message>
+	<message key="navigation.setup">Agordaĵo</message>
+	<message key="navigation.sitemap">Reteja mapo</message>
+	<message key="navigation.stepNumber">Paŝo {$step}</message>
+	<message key="navigation.submissions">Ensendaĵoj</message>
+	<message key="navigation.system">Sistemo</message>
+	<message key="navigation.userHome">Ĉefpaĝo</message>
+	<message key="navigation.user">Uzanto</message>
+	<message key="navigation.userManagement">Uzantadministrado</message>
+	<message key="notification.allow">Permesi tiaspecajn sciigoj en mia sciiga fluo.</message>
+	<message key="notification.confirmError">Okazis eraro konfirmante vian abonon.</message>
+	<message key="notification.confirmSuccess">Vi sukcese abonis.</message>
+	<message key="notification.email">Sendu retpoŝton pri tiaspecaj sciigoj.</message>
+	<message key="notification.location">Iru al URL</message>
+	<message key="notification.mailList">Sciiga dissendolisto</message>
+	<message key="notification.mailList.emailInvalid">Bonvolu aldoni validan retpoŝtadreson.</message>
+	<message key="notification.mailList.privacyProtection">Privatecprotektaj reguloj</message>
+	<message key="notification.mailList.protectedContent"><![CDATA[<a href="{$subscribeUrl}">Aboni</a> protektitan enhavon.]]></message>
+	<message key="notification.mailList.submit"><![CDATA[<a href="{$submitUrl}">Ensendi</a> artikolon]]></message>
+	<message key="notification.mailList.register">Vi povas registiĝi per tiu retejo al...</message>
+	<message key="notification.mailList.review"><![CDATA[Partopreni en la <a href="{$reviewUrl}">kolega revizia</a> procezo]]></message>
+	<message key="notification.noneExist">Neniaj sciigoj ĉi-momente.</message>
+	<message key="notification.notification">Sciigo</message>
+	<message key="notification.notifications">Sciigoj</message>
+	<message key="notification.notificationsNew">({$numNew} novaj)</message>
+	<message key="notification.notificationsDescription">Vi havas {$unreadCount} nelegitajn kaj {$readCount} legitajn sciigojn.<![CDATA[  <a href="{$settingsUrl}">Kalku ĉi-tie</a> por ŝanĝi la sciigajn agordojn.]]></message>
+	<message key="notification.settings">Sciigaj agordoj</message>
+	<message key="notification.settingsDescription">Elektu sistemajn
+	eventojn pri kiuj vi volas esti sciigata. Malmarki eron malpermesas
+	ĝian aperon en la sciigfluo..</message>
+	<message key="notification.subscribe">Aboni</message>
+	<message key="notification.subscribeError">Por via retpoŝtadreso jam estas abono.</message>
+	<message key="notification.subscribeSuccess">Retpoŝto sendita al la
+	entajpita adreso.  Bonvolu klaki la ligilon en la mesaĝo por aldoniĝi
+	al la dissendolisto.</message>
+	<message key="notification.reminderError">Okazis eraro sendi vian pasvorton, bonvolu kontroli ĉu vi bone entajpis vian adreson.</message>
+	<message key="notification.reminderSent">Nova pasvorto sendita al agordita adreso.</message>
+	<message key="notification.unsubscribe">Malaboni</message>
+	<message key="notification.unsubscribeError">Okazis eraro pri via
+	malabono.  Bonvolu kontroli ĉu vi uzas la ĝustan URLn en via sciiga
+	retpoŝto..</message>
+	<message key="notification.unsubscribeSuccess">Vi sukcese malabonis.</message>
+	<message key="search.abstract">Resumo</message>
+	<message key="search.activeFilters">Detala filtrilo</message>
+	<message key="search.advancedSearchMore">Pliaj serĉopcioj (klaku por montri)</message>
+	<message key="search.advancedSearchLess">Pliaj serĉopcioj (klaku por kaŝi)</message>
+	<message key="search.allFields">Ĉio</message>
+	<message key="search.cli.rebuildIndex.clearingIndex">Malplenigante indekson</message>
+	<message key="search.cli.rebuildIndex.done">farite</message>
+	<message key="search.cli.rebuildIndex.error">eraro</message>
+	<message key="search.cli.rebuildIndex.indexing">Enindeksigante "{$journalName}"</message>
+	<message key="search.cli.rebuildIndex.indexingByJournalNotSupported">Tiu serĉalgoritmo ne kapablas laŭĵurnalan indeksigon.</message>
+	<message key="search.cli.rebuildIndex.result">{$numIndexed} artikoloj enindeksigitaj</message>
+	<message key="search.cli.rebuildIndex.unknownJournal">La donata ĵournala pado "{$journalPath}" ne gvidis al ĵurnalo.</message>
+	<message key="search.coverage">Kovraĵo</message>
+	<message key="search.date">Publkigdato</message>
+	<message key="search.dateFrom">Ekde</message>
+	<message key="search.dateTo">Ĝis</message>
+	<message key="search.deleteFilter">Nuligi</message>
+	<message key="search.discipline">Disciplino(j)</message>
+	<message key="search.fullText">Plena teksto</message>
+	<message key="search.indexTerms">Indeksaj terminoj</message>
+	<message key="search.indexTermsLong">Ĉiuj indeksaj kampoj</message>
+	<message key="search.matchAll">Kongrui ĉiujn kategoriojn</message>
+	<message key="search.noKeywordError">Vi devas entajpi minimume unu serĉvorton .</message>
+	<message key="search.noResults">Neniaj rezultoj</message>
+	<message key="search.operator.and">kaj</message>
+	<message key="search.operator.not">ne</message>
+	<message key="search.operator.or">aŭ</message>
+	<message key="search.searchAllCategories">Serĉi</message>
+	<message key="search.searchCategories">Serĉkategorioj</message>
+	<message key="search.subject">Kapvorto(j)</message>
+	<message key="search.titleIndex">Foliumi titolan indekson</message>
+	<message key="search.title">Titolo</message>
+	<message key="search.typeMethodApproach">Tipo (metoodo/aliro)</message>
+		
+	<!-- Common -->
+	<message key="grid.action.downloadFile">Elŝuti tiun ĉi dosieron</message>
+	
+</locale>

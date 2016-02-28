@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/user.xml
+  *
+  * Copyright (c) 2000-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (English) locale.
+  -->
+
+<locale name="eo_EO" full_name = "Esperanto">
+	<message key="user.affiliation">Instituto</message>
+	<message key="user.affiliation.description">(Via instituto, ekz. "Simon Fraser Universitato")</message>
+	<message key="user.affiliations">Institutoj</message>
+	<message key="user.authorization.accessDenied">Aliro rifuzita.</message>
+<!--nefarite
+	<message key="user.authorization.processAuthenticationTokenRequired">The process authentication token is missing or invalid.</message>
+	<message key="user.authorization.contextRequired">You cannot call this operation without a context (press, journal, conference, etc).</message>
+	<message key="user.authorization.loginRequired">Login required.</message>
+	<message key="user.authorization.privateOperation">The operation you tried to access is either private or doesn't exist.</message>
+	<message key="user.authorization.restrictedSiteAccess">You have been denied access. Access to this site is currently restricted.</message>
+	<message key="user.authorization.roleBasedAccessDenied">The current role does not have access to this operation.</message>
+	<message key="user.authorization.userGroupRequired">You have to set a valid user group to access this operation.</message>
+-->
+	<message key="user.biography">Pri vi</message>
+	<message key="user.biography.description">(ekz., fako, studoj, laboro)</message>
+	<message key="user.changeMyPassword">Ŝanĝi mian pasvorton</message>
+	<message key="user.changePassword">Ŝanĝi pasvorton</message>
+	<message key="user.dateLastLogin">Pasinta ensaluto</message>
+	<message key="user.dateRegistered">Dato de registriĝo</message>
+	<message key="user.editMyProfile">Redakti mian profilon</message>
+	<message key="user.email">Retpoŝtadreso</message>
+	<message key="user.confirmEmail">Konfirmi retmesaĝon</message>
+	<message key="user.fax">Fakso</message>
+	<message key="user.feminine">virina</message>
+	<message key="user.firstName">Persona nomo</message>
+	<message key="user.gender">Sekso</message>
+	<message key="user.initialsExample">Joan Alice Smith = JAS</message>
+	<message key="user.initials">Inicialoj</message>
+	<message key="user.interests">Interesoj</message>
+	<message key="user.interests.description">(Dissigu la intersojn per komoj.)</message>
+	<message key="user.gossip">Privataj notoj</message>
+	<message key="user.lastName">Familia nomo</message>
+	<message key="user.profile.form.profileImageInvalid">
+	  Maltaŭga bild datumformato aŭ bildo tro granda. Akcepteblaj formatoj estas .gif, .jpg aŭ .png kaj la bildo de rajtas esti pli granda ol
+	  150x150 bilderoj.
+	</message>
+	<message key="user.login.accountDisabledWithReason">Via konto estas malvalidigita pro la sekva kialo: {$reason}</message>
+	<message key="user.login.accountDisabled">
+	  Via konto estas malvalidigita. Bonvolu kontakti la administriston por plia informo.
+	</message>
+	<message key="user.login.accountNotValidated">
+	  Via retpoŝadreso ne estis validata. Bonvolu kontrolu vian retmesaĝon kaj sekvu la instrukciojn senditajn. 
+	  Se vi ne ricevis mesaĝon, kontaktu la paĝaran administriston por plia helpo.
+	</message>
+	<message key="user.login.activate">Aktivigi konton</message>
+	<message key="user.login.activated">
+	  Dankon pro aktivigi vian konton. Vi nun povas ensaluti uzante la legitimaĵojn prizorgitajn kiam vi kreis vian konton.
+	</message>
+	<message key="user.login.changePasswordInstructions">
+	  <![CDATA[Vi devas elekti novan pasvorton antaŭ ol vi povas ensaluti.<br /><br />
+		   Bonvolu entajpi vian uzantnomon kaj aktualan kaj novan pasvortojn ĉi sube por ŝanĝi la pasvorton por via konto.]]>
+	</message>
+	<message key="user.login.forgotPassword">Ĉu vi forgesis vian pasvorton?</message>
+	<message key="user.login.loginError">Nevalida uzantnomo aŭ pasvorto. Bonvolu reprovi.</message>
+
+	<message key="user.login">Ensaluti</message>
+	<message key="user.logIn">Ensaluti</message>
+	<message key="user.login.lostPassword.confirmationSent">Konfirmo estas sendita al via retpoŝtadreso. Bonvolu sekvi la instrukciojn en la retmesaĝo por renovigi vian pasvorton.</message>
+	<message key="user.login.lostPassword.invalidHash">Pardonu, la ligilo alklakita jam senvalidiĝis aŭ estas nevalida. Bonvolu reprovi renovigi vian pasvorton.</message>
+	<message key="user.login.lostPassword.invalidUser">Ne ekzistas uzanto kun la retpoŝtadreso enigita.</message>
+	<message key="user.login.lostPassword.passwordSent">Nova pasvorto estas sendita al via retpoŝtadreso. Per ĝi vi povas ensaluti.</message>
+	<message key="user.login.registeredEmail">Registrita retpoŝtadreso de la uzanto </message>
+	<message key="user.login.rememberUsernameAndPassword">Memori uzantnomon kaj pasvorton</message>
+	<message key="user.login.resetPassword">Peti novan pasvorton</message>
+	<message key="user.logOut">Elsaluti</message>
+	<message key="user.mailingAddress">Adreso</message>
+	<message key="user.masculine">vira</message>
+	<message key="user.middleName">Kromnomo</message>
+	<message key="user.myAccount">Mia konto</message>
+	<message key="user.name">Nomo</message>
+	<message key="user.other">alia</message>
+	<message key="user.password">Pasvorto</message>
+	<message key="user.repeatPassword">Ripetu pasvorton</message>
+	<message key="user.phone">Telefono</message>
+	<message key="user.profile.changePasswordInstructions">Enigu vian aktualan kaj novan pasvorton ĉi sube por ŝanĝi la pasvorton de via konto.</message>
+	<message key="user.profile.editProfile">Redakti profilon</message>
+	<message key="user.profile.form.emailRequired">Valida retpoŝtadreso necesas.</message>
+	<message key="user.profile.form.affiliationRequired">Instituto devas esti indikita.</message>
+	<message key="user.profile.form.firstNameRequired">Persona nomo necesas.</message>
+	<message key="user.profile.form.lastNameRequired">Familia nomo necesas.</message>
+	<message key="user.profile.form.newPasswordRequired">Vi enigu vian novan pasvorton.</message>
+	<message key="user.profile.form.oldPasswordInvalid">La aktuala pasvorto enigita estis nekorekta.</message>
+<!--nefarite
+	<message key="user.profile.form.openAccessNotifications">Issue open access email notifications</message>
+-->
+	<message key="user.profile.form.passwordRequired">Pasvorto necesas</message>
+	<message key="user.profile.form.profileImage">Profilbildo</message>
+<!--nefarite
+	<message key="user.profile.form.publishedNotifications">New issue published email notifications</message>
+	<message key="user.profile.form.urlInvalid">The specified URL is not valid. Please double-check the URL and try again. (Hint: Try adding http:// to the beginning of the URL.)</message>
+-->
+	<message key="user.profile.form.usernameRequired">Uzantnomo necesas.</message>
+	<message key="user.profile.leavePasswordBlank">Laso la pavortajn kampojn malplenaj por neŝanĝi la pasvorton.</message>
+	<message key="user.profile.newPassword">Nova pasvorto</message>
+	<message key="user.profile.oldPassword">Aktuala pasvorto</message>
+	<message key="user.profile">Profilo</message>
+	<message key="user.profile.publicProfile">Uzantoprofilo</message>
+	<message key="user.profile.repeatNewPassword">Retajpu pasvorton</message>
+	<message key="user.register.form.emailExists">La retpoŝadreso enigita jam estas uzata de alia uzanto.</message>
+	<message key="user.register.form.passwordsDoNotMatch">La pasvortoj ne kongruas.</message>
+	<message key="user.register.form.emailsDoNotMatch">La retpoŝadresaj kampoj ne kongruas.</message>
+	<message key="user.register.form.usernameAlphaNumeric">La uzantnomo nur enhavu literciferajn signojn, streketojn, substrekojn kaj
+	komenciĝu kaj finiĝu per litercifera signo.</message>
+	<message key="user.register.form.usernameExists">La elektita uzantnomo jam estas uzata per alia uzanto.</message>
+	<message key="user.register.passwordLengthRestriction">La pasvorto havu minimume {$length} signojn.</message>
+	<message key="user.register.registerAs">Registriĝi kiel</message>
+	<message key="user.register">Registriĝi</message>
+	<message key="user.register.usernameRestriction">La uzantnomo nur enhavo minusklajn literojn, ciferojn, streketojn kaj substrekojn.</message>
+	<message key="user.role.reader">Leganto</message>
+	<message key="user.role.readers">Legantoj</message>
+	<message key="user.role.reviewer">Revizianto</message>
+	<message key="user.role.reviewers">Reviziantoj</message>
+	<message key="user.role.siteAdmin">Paĝara administristo</message>
+	<message key="user.role.siteAdmins">Paĝaraj administristoj</message>
+	<message key="user.roles">Roloj</message>
+	<message key="user.salutation">Alparolo</message>
+	<message key="user.sendPassword">Konfirmo</message>
+	<message key="user.sendPassword.description">Mi petas konfirmon inkluzivan uzantnomon kaj pasvorton.</message>
+	<message key="user.signature">Subskribo</message>
+	<message key="user.title">Titlolo</message>
+	<message key="user.url">URL</message>
+	<message key="user.userHome">Ĉefpaĝo</message>
+	<message key="user.username">Uzantnomo</message>
+	<message key="user.workingLanguages">Lingvoj</message>
+	<message key="user.register.completeForm">Plenumu tiun ĉi formularon por registriĝi al la revuo.</message>
+</locale>
